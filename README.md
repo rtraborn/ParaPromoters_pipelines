@@ -16,4 +16,4 @@ How to run a given sample:
 `ln -s downloads/NameofFastqFile_R1.fastq Pcaud1_R1.fq`
 
 5. Launch the job on your cluster (but make sure to update the paths and headers as needed.
-`qsub scripts/aunch_job_Pc_1.sh` 
+`qsub scripts/launch_job_Pc_1.sh` 
