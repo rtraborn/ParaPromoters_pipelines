@@ -5,12 +5,14 @@
 #PBS -l nodes=1:ppn=16,vmem=64gb
 #PBS -l walltime=8:00:00
 
-myDir=/N/dc2/scratch/rtraborn/STRIPEseq-files/GoSTRIPES_Paramecium/STRIPES
+myDir=/N/u/rtraborn/Carbonate/scratch/STRIPEseq_files/GoSTRIPES_Paramecium/STRIPES
 sampleFolder=Pc_2
 
 module load singularity
 
-source /N/dc2/scratch/rtraborn/my_Devel/GoSTRIPES/bin/xworkStripes -b /N/dc2/scratch/rtraborn/STRIPEseq-files/GoSTRIPES_Paramecium/STRIPES -i /N/dc2/scratch/rtraborn/STRIPEseq-files/GoSTRIPES_Paramecium/STRIPES/gostripes.simg
+cd $myDir
+
+source /N/dc2/scratch/rtraborn/myDevel/GoSTRIPES/bin/xworkStripes -b /N/dc2/scratch/rtraborn/STRIPEseq_files/GoSTRIPES_Paramecium/STRIPES -i /N/dc2/scratch/rtraborn/STRIPEseq_files/GoSTRIPES_Paramecium/STRIPES/gostripes.simg
 
 echo "Launching job"
 
