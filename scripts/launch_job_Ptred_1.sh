@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#PBS -N PcSTRIPE_job_rep_1
+#PBS -N PtredSTRIPE_job_rep_1
 #PBS -k o
 #PBS -l nodes=1:ppn=16,vmem=64gb
 #PBS -l walltime=8:00:00
