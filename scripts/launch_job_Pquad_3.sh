@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#PBS -N PquadSTRIPE_job_rep_3
+#PBS -N Pquad_rep3
 #PBS -k o
 #PBS -l nodes=1:ppn=16,vmem=64gb
-#PBS -l walltime=8:00:00
+#PBS -l walltime=14:00:00
 
 myDir=/N/dc2/scratch/rtraborn/STRIPEseq_files/GoSTRIPES_Paramecium/STRIPES
 sampleFolder=Pquad_3
