@@ -21,21 +21,21 @@
 # system and preferences.
 
 BASEDIR  = ${CURDIR}/..
-RAWREAD1 = Psex3_R1
-RAWREAD2 = Psex3_R2
+RAWREAD1 = Ptred2_R1
+RAWREAD2 = Ptred2_R2
 RAWREAD1FQ = ${BASEDIR}/downloads/${RAWREAD1}.fq
 RAWREAD2FQ = ${BASEDIR}/downloads/${RAWREAD2}.fq
 
 UMI     = NNNNNNNN
 LINKER  = TATAGGG
 PATTERN = ${UMI}${LINKER}
-SAMPLE  = Psex_3
+SAMPLE  = Ptred_2
 
 # Genome file locations:
 
-GENOME_DIR  = ${BASEDIR}/PsGENOME
-GENOME_FILE = ${GENOME_DIR}/psex_mod.fa
-GENOME_GTF  = ${GENOME_DIR}/psex-full.gff
+GENOME_DIR  = ${BASEDIR}/PtredGENOME
+GENOME_FILE = ${GENOME_DIR}/ptre_mod.fa 
+GENOME_GTF  = ${GENOME_DIR}/ptre-full.gff 
 RNAfile     = ${GENOME_DIR}/ptet-rDNA.fa
 
 

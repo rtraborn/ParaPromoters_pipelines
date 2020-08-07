@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#PBS -N PcSTRIPE_job_rep_2
+#PBS -N Pc_rep_2
 #PBS -k o
 #PBS -l nodes=1:ppn=16,vmem=64gb
-#PBS -l walltime=8:00:00
+#PBS -l walltime=18:00:00
 
 myDir=/N/u/rtraborn/Carbonate/scratch/STRIPEseq_files/GoSTRIPES_Paramecium/STRIPES
 sampleFolder=Pc_2
