@@ -21,21 +21,21 @@
 # system and preferences.
 
 BASEDIR  = ${CURDIR}/..
-RAWREAD1 = Psomm1_R1
-RAWREAD2 = Psomm1_R2
+RAWREAD1 = Pson1_R1
+RAWREAD2 = Pson1_R2
 RAWREAD1FQ = ${BASEDIR}/downloads/${RAWREAD1}.fq
 RAWREAD2FQ = ${BASEDIR}/downloads/${RAWREAD2}.fq
 
 UMI     = NNNNNNNN
 LINKER  = TATAGGG
 PATTERN = ${UMI}${LINKER}
-SAMPLE  = Psomm_1
+SAMPLE  = Pson_1
 
 # Genome file locations:
 
-GENOME_DIR  = ${BASEDIR}/PsGENOME
-GENOME_FILE = ${GENOME_DIR}/psom_mod.fa 
-GENOME_GTF  = ${GENOME_DIR}/psom-full.gff 
+GENOME_DIR  = ${BASEDIR}/PsonGENOME
+GENOME_FILE = ${GENOME_DIR}/pson_mod.fa 
+GENOME_GTF  = ${GENOME_DIR}/pson-full.gff
 RNAfile     = ${GENOME_DIR}/ptet-rDNA.fa
 
 
