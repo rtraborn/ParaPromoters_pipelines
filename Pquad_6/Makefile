@@ -21,15 +21,15 @@
 # system and preferences.
 
 BASEDIR  = ${CURDIR}/..
-RAWREAD1 = Pquad3_R1
-RAWREAD2 = Pquad3_R2
+RAWREAD1 = Pquad6_R1
+RAWREAD2 = Pquad6_R2
 RAWREAD1FQ = ${BASEDIR}/downloads/${RAWREAD1}.fq
 RAWREAD2FQ = ${BASEDIR}/downloads/${RAWREAD2}.fq
 
 UMI     = NNNNNNNN
 LINKER  = TATAGGG
 PATTERN = ${UMI}${LINKER}
-SAMPLE  = Pquad_3
+SAMPLE  = Pquad_6
 
 # Genome file locations:
 
