@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#PBS -N Psept_rep_2
+#PBS -N Psept_rep_3
 #PBS -k o
 #PBS -l nodes=1:ppn=16,vmem=64gb
-#PBS -l walltime=24:00:00
+#PBS -l walltime=48:00:00
 
 myDir=/N/dc2/scratch/rtraborn/STRIPEseq_files/GoSTRIPES_Paramecium/STRIPES
 sampleFolder=Psept_2
