@@ -29,7 +29,7 @@ RAWREAD2FQ = ${BASEDIR}/downloads/${RAWREAD2}.fq
 UMI     = NNNNNNNN
 LINKER  = TATAGGG
 PATTERN = ${UMI}${LINKER}
-SAMPLE  = Pdode_1
+SAMPLE  = Pdodec_1
 
 # Genome file locations:
 
