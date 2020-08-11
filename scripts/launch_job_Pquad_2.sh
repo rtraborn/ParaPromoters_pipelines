@@ -2,8 +2,8 @@
 
 #PBS -N Pquad_job_rep2
 #PBS -k o
-#PBS -l nodes=1:ppn=16,vmem=64gb
-#PBS -l walltime=24:00:00
+#PBS -l nodes=1:ppn=16,vmem=96gb
+#PBS -l walltime=36:00:00
 
 myDir=/N/dc2/scratch/rtraborn/STRIPEseq_files/GoSTRIPES_Paramecium/STRIPES
 sampleFolder=Pquad_2
