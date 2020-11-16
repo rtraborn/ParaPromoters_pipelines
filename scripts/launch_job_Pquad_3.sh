@@ -3,16 +3,17 @@
 #PBS -N Pquad_rep3
 #PBS -k o
 #PBS -l nodes=1:ppn=16,vmem=96gb
-#PBS -l walltime=48:00:00
+#PBS -l walltime=1:00:00
+#PBS -q debug
 
-myDir=/N/dc2/scratch/rtraborn/STRIPEseq_files/GoSTRIPES_Paramecium/STRIPES
+myDir=/N/slate/rtraborn/GoSTRIPES_Para/STRIPES
 sampleFolder=Pquad_3
 
 module load singularity
 
 cd $myDir
 
-source /N/dc2/scratch/rtraborn/myDevel/GoSTRIPES/bin/xworkStripes -b /N/dc2/scratch/rtraborn/STRIPEseq_files/GoSTRIPES_Paramecium/STRIPES -i /N/dc2/scratch/rtraborn/STRIPEseq_files/GoSTRIPES_Paramecium/STRIPES/gostripes.simg
+source /N/slate/rtraborn/myDevel/GoSTRIPES/bin/xworkStripes -b /N/slate/rtraborn/GoSTRIPES_Para/STRIPES -i /N/slate/rtraborn/GoSTRIPES_Para/STRIPES/gostripes.simg
 
 echo "Launching job"
 
