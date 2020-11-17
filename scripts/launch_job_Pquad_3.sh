@@ -3,8 +3,7 @@
 #PBS -N Pquad_rep3
 #PBS -k o
 #PBS -l nodes=1:ppn=16,vmem=96gb
-#PBS -l walltime=1:00:00
-#PBS -q debug
+#PBS -l walltime=30:00:00
 
 myDir=/N/slate/rtraborn/GoSTRIPES_Para/STRIPES
 sampleFolder=Pquad_3
